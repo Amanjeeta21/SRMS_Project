@@ -269,7 +269,7 @@ void updateStudent() {
             printf("English: ");
             scanf("%f", &s.english);
             printf("Computer Science: ");
-            scanf("%f", &s.computer);
+            scanf("%f", &s.computer);       
             
             calculateMarks(&s);
             printf("\n*** Record updated successfully! ***\n");
@@ -379,5 +379,5 @@ int getNextId() {
     }
     
     fclose(fp);
-    return maxId + 1;
+    return maxId + 1;       
 }
